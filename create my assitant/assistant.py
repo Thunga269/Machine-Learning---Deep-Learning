@@ -41,9 +41,9 @@ while True:
         now = datetime.now()
         robot_brain = now.strftime("%H hours %M minutes %S seconds")
     elif "boyfriend" in you:
-        robot_brain = "Mai Duc Giang"
+        robot_brain = "You"
     elif "best friend" in you:
-        robot_brain = "Doan Duc Thang"
+        robot_brain = "You"
     elif "bye" in you:
         robot_brain = "bye Nga"
         print("Robot_brain: " + robot_brain)
